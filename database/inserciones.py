@@ -11,4 +11,4 @@ def insertar(conexion, data_user):
     bd.commit()
     print(f"Usuario insertado. \n{data_user}")
     cursor.close()
-    bd.close()
+    ##bd.close()
