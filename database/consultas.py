@@ -2,11 +2,12 @@
 def consultar(conexion):
     bd = conexion
     cursor = bd.cursor()
-    query = ("SELECT * FROM prueba")
+    query = ("SELECT * FROM user")
     cursor.execute(query)
     print('Consulta de datos: \n')
-    for (name, lastname, edad) in cursor:
-        print(f"nombre: {name}, apellido: {lastname}, edad: {edad}\n")
+    for (id_user, name, lastname, edad) in cursor:
+        print(f"id usuario: {id_user}, nombre: {name}, apellido: {lastname}, edad: {edad}\n")
 
     cursor.close()
+
 
