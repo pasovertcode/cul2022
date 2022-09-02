@@ -1,0 +1,6 @@
+Descripción:
+La herramienta es un menu en consola usando POO la cual se conecta a la base de datos dando la posibilidad de consultar todos los datos, 
+modificar un usuario en especifico, insertar un nuevo usuario y eliminar un usuario.
+
+
+Ejecutar run.py
