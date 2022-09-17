@@ -1,0 +1,2 @@
+class asignatura:
+    pass
